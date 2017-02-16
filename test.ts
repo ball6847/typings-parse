@@ -513,3 +513,14 @@ function test_view() {
   var model = Parse.User.current();
   var view = new Parse.View<Parse.User>();
 }
+
+function test_parse_livequery() {
+  const query = new Parse.Query('GameScore');
+  const subscription = query.subscribe();
+
+  subscription.on('create', (results) => {
+    console.log(results);
+  });
+
+  subscription.unsubscribe();
+}
