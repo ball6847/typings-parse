@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ullisenmedia/parse",
   "dependencies": {
-    "underscore": "^1.7.0"
+    "@types/jquery": "*",
+    "@types/node": "*",
+    "@types/underscore": "*"
   }
 }
