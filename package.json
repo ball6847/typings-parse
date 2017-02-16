@@ -20,5 +20,8 @@
     "@types/jquery": "*",
     "@types/node": "*",
     "@types/underscore": "*"
+  },
+  "devDependencies": {
+    "parse": "^1.9.2"
   }
 }
